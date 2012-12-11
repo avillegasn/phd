@@ -1,0 +1,67 @@
+/* 
+	STYLE SHEET FOR IHWY JQUERY LISTNAV PLUGIN V 2.0, 3/2/2009
+	
+	For more information, visit http://www.ihwy.com/Labs/jquery-listnav-plugin.aspx
+*/
+
+
+/* default styling example
+----------------------------------------------------------------- */
+
+.ln-letters {
+	display: inline-block;
+	overflow:hidden;
+	margin:0 auto;
+	text-align:center;
+}
+
+.ln-letters a { 
+	font-family: 'Lucida Grande', Lucida, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	display:block; 
+	float:left; 
+	padding:2px 6px; 
+	border:1px solid silver; 
+	border-right:none; 
+	text-decoration:none; 
+	border:none; border-top:2px solid gray; 
+	color:black;
+}
+
+.ln-letters a.ln-last { 
+	border-right:none; 
+}
+
+.ln-letters a:hover {
+	border-top:2px solid black; background-color:#939393; color:White !important;
+}
+.ln-letters a.ln-selected {
+	border-top:2px solid black; background-color:#2B2B2B; color:White !important;
+}
+
+.ln-letters a.ln-disabled { 
+	color:#ccc; 
+}
+
+.ln-no-match {
+	font-size: 14px;
+	list-style-type: none;
+	padding: 5px;
+	background-color: lightgray;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-family: 'Lucida Grande', Lucida, Arial, sans-serif;
+}
+
+.ln-letter-count { 
+	margin-top:-48px; 
+	text-align:center; 
+	font-size:0.8em; 
+	line-height:1; 
+	margin-bottom:5px; 
+	color:gray;
+	font-family: 'Lucida Grande', Lucida, Arial, sans-serif;
+	font-weight: bold;
+}
+

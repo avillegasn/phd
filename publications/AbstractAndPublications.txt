@@ -1,0 +1,61 @@
+ABSTRACT
+===============================
+
+Nowadays, the need for representation and conceptualization of real world information has dramatically increased. Organizations evolution and diversification require the management and maintenance of large amounts of knowledge from their domains of interest. That growth also has an impact in the size of conceptual schemas of information systems, making them larger. The sheer size of those schemas transforms them into very useful artifacts for the communities and organizations for which they are developed. However, the size of the schemas and their overall structure and organization make it difficult to manually extract knowledge from them, to understand their characteristics, and to change them.
+
+There are many information system development activities in which people needs to get a piece of the knowledge contained in the conceptual schema. For example, a conceptual modeler needs to check with a domain expert that the knowledge is correct, a database designer needs to implement that knowledge into a relational database, a software tester needs to write tests checking that the knowledge has been correctly implemented in the system components, or a member of the maintenance team needs to change that knowledge. 
+
+Dealing with large conceptual schemas is one of the most challenging and long-standing goals in conceptual modeling. The purpose of this thesis is to formally define a new information filtering methodology to help users of very large conceptual schemas to understand the characteristics and knowledge these schemas contain. This thesis analyzes and describes the different phases of an information filtering engine, identifies and studies several properties of relevance for elements of large conceptual schemas, provides a catalog of specific filtering requests to explore a schema in several filtering scenarios, and implements and evaluates the efficiency and effectiveness of a filtering engine prototype with several real case studies. 
+
+The filtering methodology studies the characteristics of the knowledge contained within a large conceptual schema, and proposes ways to select and represent the user interest in order to specialize the results of a filtering engine. Consequently, a user focus on a fragment of the large schema of interest to her and our methodology automatically obtains a reduced conceptual schema extracted from the large schema and focused on the knowledge that has a closer relation with the focus of the user. Such filtered conceptual schema is a subset of the original one, and because of its reduced size it is more comprehensible to the user.
+
+The filtering approach provides knowledge extraction techniques aligned with the user interest representation, and presents such knowledge in an appropriate way to simplify its understanding. Furthermore, using this filtering approach the large conceptual schemas are navigated more quickly, increasing their usability and reducing the user effort. 
+
+
+PUBLICATIONS
+================================
+
+Conference publications
+__________________________________________________
+
+
+A Method for Filtering Large Conceptual Schemas
+A. Villegas, A. Olivé. A Method for Filtering Large Conceptual Schemas, in: 29th International Conference on Conceptual Modeling (ER 2010), 2010.
+This is the first publication with the main ideas about filtering large conceptual schemas, which is the main contribution of the Thesis. This publication also includes the formal definition of the metrics to compute the interest of the elements in the schema according to specific user requests. The ideas behind this proposal were discussed in the context of this conference and are the base of the work presented in the Thesis. The filtering methodology is explained in detail in Chapter 5 of the Thesis.
+
+Understanding Constraint Expressions in Large Conceptual Schemas by Automatic Filtering
+A. Villegas, A. Olivé, and M.R. Sancho. Understanding Constraint Expressions in Large Conceptual Schemas by Automatic Filtering, in: 31th International Conference on Conceptual Modeling (ER 2012), 2012.
+This publication presents the filtering request for schema rules from the filtering catalog, which is one of the main contributions of the Thesis. The paper details the main stages of the filtering request and proposes a formal approach to evaluate the effectiveness and efficiency of the filtering proposal when applied to a set of real-world large conceptual schemas, which is extended and described in detail in Chapter 7 of the Thesis. The description of the filtering requests that conform the filtering catalog is included in Chapter 6 of the Thesis.
+
+On Computing the Importance of Entity Types in Large Conceptual Schemas
+A. Villegas, A. Olivé. On Computing the Importance of Entity Types in Large Conceptual Schemas, in: 28th International Conference on Conceptual Modeling (ER 2009).
+This publication presents the fundamentals for computing the importance of entity types in large conceptual schemas, which is one the main contributions of the Thesis (Chapter 3). This publication describes a set of existing methods from the literature with proposed extensions to improve them. It also includes the analysis of the correlation and variability between methods.
+
+A Tool for Filtering Large Conceptual Schemas
+A. Villegas, M.R. Sancho, and A. Olivé. A Tool for Filtering Large Conceptual Schemas, in: 30th International Conference on Conceptual Modeling (ER 2011), 2011.
+This paper presents the main features and the architecture of the web-based filtering engine, the tool that supports conceptual schema filtering. This tool is explained in detail in Chapter 8 of the Thesis. This publication also includes the description of the main characteristics of the filtering process, as described in Chapters 5 and 6 of the Thesis.
+
+A Web-based Filtering Engine for Understanding Event Specifications in Large Conceptual Schemas
+A. Villegas, A. Olivé, and M.R. Sancho. A Web-based Filtering Engine for Understanding Event Specifications in Large Conceptual Schemas, in: 31th International Conference on Conceptual Modeling (ER 2012), 2012.
+This paper presents the main characteristics and provided functionality of the filtering request for event types  from the filtering catalog. The details about the catalog of filtering requests are explained in Chapter 6 of the Thesis.
+
+Improving the Usability of HL7 Information Models by Automatic Filtering
+A. Villegas, A. Olivé, and J. Vilalta. Improving the Usability of HL7 Information Models by Automatic Filtering, in: IEEE 6th World Congress on Services (SERVICES 2010), 2010.
+This publication presents the application of the filtering approach to the healthcare information models of the HL7 standard. The publication demonstrates that the filtering methodology makes it easier to automatically extract knowledge from the HL7 models. This publication covers the research work in Chapter 9 of the Thesis.
+
+
+Journal publications
+_________________________________________________
+
+
+Extending the Methods for Computing the Importance of Entity Types in Large Conceptual Schemas
+A. Villegas, A. Olivé. Extending the Methods for Computing the Importance of Entity Types in Large Conceptual Schemas, Journal of Universal Computer Science  vol.16 no.20 (2010) 3138-3162.
+This publication presents the fundamentals for computing the importance of entity types in large conceptual schemas, which is one the main contributions of the Thesis (Chapter 3). This publication describes extensions to existing importance-computing methods in order to take into account additional knowledge from the schema, which are the basis for the filtering methodology described in detail in Chapter 5 of the Thesis.
+
+
+Book chapter publications
+__________________________________________________
+
+On Computing the Importance of Associations in Large Conceptual Schemas
+A. Villegas, A. Olivé, and M.R. Sancho. On Computing the Importance of Associations in Large Conceptual Schemas, in: A. Düsterhöft, M. Klettke, K.-D. Schewe (Eds.), Conceptual Modelling and Its Theoretical Foundations, LNCS, Springer, 2012.
+This book chapter presents a method to adapt the existing methods to compute the importance of entity and event types of a conceptual schema to be able to compute the importance of associations. This work is included in Section 4.3 of the Thesis.
